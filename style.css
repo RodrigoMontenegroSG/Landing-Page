@@ -50,16 +50,18 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-right: auto;
 }
 .title .right {
-    flex-shrink: 0;
-    width: 50%;
+    margin-left: auto;
 }
 .title img{
     width: auto;
     height: 310px;
     border: 5px #1F2937;
     border-radius: 15px;
+    align-self: flex-end;
+    margin-left: auto;
 }
 .title1 h1{
     font-size: 48px;
@@ -70,6 +72,13 @@ body {
     font-size: 18px;
     color: #E5E7EB ;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 13em;
+}
+
 /* second */
 .second {
     background-color: white;
@@ -132,30 +141,47 @@ body {
     margin-top: 30px;
     padding: 5em 13em;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sign{
+    display: flex;
     background-color: #3882F6;
     color: white;
     text-align: justify;
     padding: 3em;
     border-radius: 10px;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sign a{
     font-size: 20px;
     font-weight: bold;
 }
+.text3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.text3 p{
+    margin-right: auto;
+}
 
-.sign button {
+.text3 button {
     border: 2px solid #FFF;
     font-size: 20px;
-    margin-left: 8em;
     color: white;
     background-color: #3882F6;
     border-radius: 10px;
     height: 30px;
     width: 130px;
+    margin-left: auto;
+    margin-top: 8px;
 }
 
 /* fifth */
