@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', arial;
+    font-family: 'Roboto', arial, serif;
 }
 
 .header{
@@ -76,6 +76,7 @@ body {
     color: #1F2937;
     text-align: center;
     margin-top: 30px;
+    padding: 1em 13em;
 }
 
 .second #header2 {
@@ -101,5 +102,71 @@ body {
     border: 4px solid #3882F6;
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
+}
+/* third */
+
+.third{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    margin-top: 30px;
+    padding: 7em 13em;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+#text2 {
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: end;
+}
+/* fourth */
+
+.fourth {
+    background-color: white;
+    margin-top: 30px;
+    padding: 5em 13em;
+    display: flex;
+}
+
+.sign{
+    background-color: #3882F6;
+    color: white;
+    text-align: justify;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.sign a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign button {
+    border: 2px solid #FFF;
+    font-size: 20px;
+    margin-left: 8em;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 30px;
+    width: 130px;
+}
+
+/* fifth */
+.fifth{
+    background-color: #1F2937;
+    margin-top: 30px;
+    padding: 2em;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
 }
 
